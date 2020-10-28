@@ -1,0 +1,322 @@
+.service-post-board {
+  width: 100%;
+  height: 90%;
+}
+
+.service-post-board .handwritting {
+  font-family: "Indie Flower";
+}
+
+.service-post-board .rotate1 {
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.service-post-board .rotate2 {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.service-post-board .move1 {
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+}
+
+.service-post-board .move2 {
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+.service-post-board .serviceCardPink {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #d9387b;
+  margin: 10px;
+  padding: 10px;
+}
+
+.service-post-board .serviceCardPink:hover {
+  z-index: 10;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all 500ms ease 50ms;
+  transition: all 500ms ease 50ms;
+}
+
+.service-post-board .serviceCardOrange {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #e66d50;
+  margin: 10px;
+  padding: 10px;
+}
+
+.service-post-board .serviceCardOrange:hover {
+  z-index: 10;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all 500ms ease 50ms;
+  transition: all 500ms ease 50ms;
+}
+
+.service-post-board .serviceCardBlue {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #0080d1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.service-post-board .serviceCardBlue:hover {
+  z-index: 10;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all 500ms ease 50ms;
+  transition: all 500ms ease 50ms;
+}
+
+.service-post-board .serviceCardGreen {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #44ab36;
+  margin: 10px;
+  padding: 10px;
+}
+
+.service-post-board .serviceCardGreen:hover {
+  z-index: 10;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all 500ms ease 50ms;
+  transition: all 500ms ease 50ms;
+}
+
+.service-post-board .serviceCardYellow {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #dee72a;
+  margin: 10px;
+  padding: 10px;
+}
+
+.service-post-board .serviceCardYellow:hover {
+  z-index: 10;
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  -webkit-transition: all 500ms ease 50ms;
+  transition: all 500ms ease 50ms;
+}
+
+.service-bg {
+  background-image: url("../img/serve.jpg");
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 35vh;
+  margin-left: -15px;
+}
+
+.section-headline {
+  background-color: #f1ece4;
+  opacity: 0.95;
+  -webkit-transform: translateY(-10vh);
+          transform: translateY(-10vh);
+}
+
+.highlightedService {
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+.service-wall {
+  background-image: url("../img/board.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 40vh;
+  margin-left: -15px;
+}
+
+.service-wall .board-caption {
+  -webkit-transform: translateY(-5vh);
+          transform: translateY(-5vh);
+}
+
+.serviceCard {
+  position: relative;
+}
+
+.serviceCard .serviceRemark {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(122, 122, 122, 0.295);
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.serviceCard .serviceTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  color: transparent;
+  width: 400px;
+  height: 400px;
+}
+
+.serviceCard:hover .serviceTitle {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  -webkit-transition: all 500ms ease 50ms;
+  transition: all 500ms ease 50ms;
+}
+
+/* style footer */
+.div-border-top {
+  border-top: 1px solid #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  padding: 0.5rem 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a,
+.footer a:link,
+.footer a:active,
+.footer a:hover {
+  color: #fff;
+}
+
+.footer .copyrights {
+  font-size: 0.8rem;
+}
+
+.footer .copyrights li {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.footer .copyrights li:first-child {
+  border-right: 1px solid #fff;
+}
+
+.footer .social a {
+  margin-right: 1rem;
+}
+
+.footer .social i {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer .copyrights {
+    font-size: 1rem;
+  }
+  .footer .copyrights li {
+    display: block;
+    padding-bottom: 0.5rem;
+  }
+  .footer .copyrights li:first-child {
+    border: none;
+  }
+}
+
+/* Style header */
+.header nav {
+  border-bottom: 1px solid #1ebba3;
+  -webkit-box-shadow: 1px 1px 2px #06a587;
+          box-shadow: 1px 1px 2px #06a587;
+}
+
+.brand {
+  font-size: 2rem;
+}
+
+.link-reset {
+  text-decoration: none;
+  color: #1ebba3;
+}
+
+.link-reset:hover,
+.link-reset:active {
+  text-decoration: none;
+  color: #06a587;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #1ebba3;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
+  color: #06a587;
+}
+
+.nav-menu i {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.nav-menu a {
+  text-transform: uppercase;
+}
+
+.btn-custom,
+.btn-custom:link,
+.btn-custom:visited {
+  color: #fff;
+  background-color: #1ebba3;
+  border-color: #1ebba3;
+}
+
+.btn-custom:hover {
+  background-color: #06a587;
+  border-color: #06a587;
+  color: #fff;
+}
+
+.btn-custom:active {
+  background-color: #068d74;
+  border-color: #068d74;
+}
+
+.btn-custom:focus {
+  background-color: #12b199;
+  border-color: #12b199;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(53, 209, 186, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(53, 209, 186, 0.5);
+}
+
+.text-custom {
+  color: #1ebba3;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #1ebba3;
+}
+/*# sourceMappingURL=service.css.map */

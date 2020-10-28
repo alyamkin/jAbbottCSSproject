@@ -1,0 +1,231 @@
+
+/* Style header */
+.header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0, 0.2), rgba(0,0,0,0.2)), url("../img/header-1920.jpg");
+    background-size: cover;
+    height: 95vh;
+    background-position: top;
+    background-attachment: fixed;
+}
+.div-center {
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+.heading_primary {
+    transition: all .2s;
+}
+.heading_primary-main {
+    display: block;
+    letter-spacing: 1rem;
+    font-weight: 400;
+    animation: moveInLeft 1.5s ease-in;
+}
+.heading_primary-sub {
+    letter-spacing: 1rem;
+    font-weight: 700;
+    animation: moveInRight 1.5s ease-in;
+}
+.header .row {
+    padding: 0 15px;
+}
+.nav-menu i{
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+.nav-menu a {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .nav-menu i{
+        margin-right: 0.5rem;
+        font-size: 1.5rem;
+    }
+    .nav-menu a {
+        font-size: 1.5rem;
+    }
+    .heading-primary {
+        line-height: 0.5rem;
+    }
+    .heading_primary-main {
+        letter-spacing: 0.5rem;
+        font-size: 2rem;
+
+    }
+    .heading_primary-sub {
+        letter-spacing: 0.5rem;
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* style footer */
+.div-border-top {
+    border-top: 1px solid #fff;
+}
+.footer ul {
+    list-style: none;
+    padding-left:0;
+}
+.footer li {
+    padding: 0.5rem 0;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer a,
+.footer a:link,
+.footer a:active,
+.footer a:hover {
+    color: #fff;
+}
+
+.footer .copyrights {
+    font-size: 0.8rem;
+}
+.footer .copyrights li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+.footer .copyrights li:first-child {
+    border-right: 1px solid #fff;
+}
+.footer .social a {
+    margin-right: 1rem;
+}
+.footer .social i {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer .copyrights {
+        font-size: 1rem;
+    }
+    .footer .copyrights li {
+        display: block;
+        padding-bottom: 0.5rem;
+    }
+    .footer .copyrights li:first-child {
+        border: none;
+    }
+}
+
+/* Style about section */
+@media only screen and (max-width: 576px) {
+    .section_about i {
+        font-size: 2.5rem;
+    }
+}
+/* Style share section */
+.section_share {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/share-1920.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 50vh;
+}
+/* style links */
+.link-reset {
+    text-decoration: none;
+    color: #1ebba3;
+}
+.link-reset:hover,
+.link-reset:active {
+    text-decoration: none;
+    color: #06a587;
+}
+
+/* style custom text */
+.text-custom {
+    color: #1ebba3;
+}
+
+
+/* Style custom buttons */
+.btn-custom,
+.btn-custom:link,
+.btn-custom:visited {
+    color: #fff;
+    background-color: #1ebba3;
+    border-color: #1ebba3;
+}
+.btn-custom:hover {
+    background-color: #06a587;
+    border-color: #06a587;
+    color: #fff;
+}
+.btn-custom:active {
+    background-color: #068d74;
+    border-color: #068d74;
+}
+.btn-custom:focus {
+    background-color: #12b199;
+    border-color: #12b199;
+    box-shadow: 0 0 0 0.2rem rgba(53, 209, 186,.5);
+}
+
+.btn-custom-outlined,
+.btn-custom-outlined:link,
+.btn-custom-outlined:visited {
+    color: #1ebba3;
+    background-color: #fff;
+    border:2px solid #1ebba3;
+    text-transform: uppercase;
+}
+.btn-custom-outlined:hover {
+    color: #06a587;
+    border-color: #06a587;
+}
+.btn-custom-outlined:active {
+    color: #068d74;
+    border-color: #068d74;
+}
+.btn-custom-outlined:focus {
+    color: #12b199;
+    border-color: #12b199;
+    box-shadow: 0 0 0 0.2rem rgba(53, 209, 186,.5);
+}
+
+/* Style form */
+.form-control-custom:focus {
+    color: #12b199;
+    box-shadow: 0 0 0 0.2rem rgba(53, 209, 186,.25);
+}
+
+ /* Animations */
+ @keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem)
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+        
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem)
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+        
+    }
+}

@@ -1,0 +1,237 @@
+DAILY SCRUM
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Format:
+Each member writes down answers to 3 questions in the following format:
+<< current date goes here >>
+1. What I have done / not done since last Scrum?
+2. What I plan to do from this scrum to next? (next 24 hours)
+3. Where do I need assistance? What do I need to figure out?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+2020/10/28 Philip Huang
+1. What I have done / not done since the last Scrum?
+- Improve the picture scaling in responsive layout for all detail pages
+- Fix the nav bar buttons in responvise lyaout
+- Relink header/footer for all detail pages, FAQ, search-event page. 
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Test linkages
+- Host the project to bitbucket
+
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/28 Andrey Lyamkin
+1. What I have done / not done since last Scrum?
+- Workable links for landing page.
+- Debug the pages
+- Improved responsive design 
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Prepare for project presentation
+- Fix minor bugs
+3. Where do I need assistance? What do I need to figure out?
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2020/10/27 Philip Huang
+1. What I have done / not done since the last Scrum?
+- Build the linkage between detail-event and detail-sightseeing pages
+- Build a detail-service page(the profile of a supplier/partner)
+- Adjust the filter on search-event page.
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Improve the picture scaling in responsive layout for all detail pages
+- Fix the nav bar buttons in responvise lyaout
+- Relink header/footer for all detail pages, FAQ, search-event page. 
+3. Where do I need assistance? What do I need to figure out?
+
+
+2020/10/27 Edwin Li
+1. What I have done / not done since last Scrum?
+- service search
+- sightseeing search
+- partner page
+2. What I plan to do from this scrum to next? (next 24 hours)?
+- debug of pages
+- new header/footer of pages
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/27 Andrey Lyamkin
+1. What I have done / not done since last Scrum?
+- Built page to send information about sightseeing for administration.
+- Built page for user account
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Check links for landing page
+- Debug pages
+- Work on responsivness
+3. Where do I need assistance? What do I need to figure out?
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2020/10/26 Philip Huang
+1. What I have done / not done since the last Scrum?
+- Built Search-Event, Detail-Event page
+- Restructred the FAQ page
+- Finished merge header/footder to FAQ, Search-Event, Detail-Event, Detail-Sightseeing pages.
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Build the linkage between detail-event and detail-sightseeing pages
+- Build a detail-service page(the profile of a supplier/partner)
+- Adjust the filter on search-event page.
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/26 Edwin Li
+1. What I have done / not done since last Scrum?
+- the first version of service page
+- the first version of video page (mainly focus on tech verification)
+- filter collapse of search page
+- dropdown effect of filter side bar
+- debug the search page on the page blank and wrap issue
+2. What I plan to do from this scrum to next? (next 24 hours)?
+- implement service search page
+- implement sightseeing search page
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/26 Andrey Lyamkin
+1. What I have done / not done since last Scrum?
+- Built reusable footer and header for the rest of the pages
+- Assisted colleagues with Bootstrap
+- Built page to send information about sightseeing for administration - not done
+- Built responsivness of the landing page
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Build page to send information about sightseeing for administration
+3. Where do I need assistance? What do I need to figure out?
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2020/10/23 Andrey Lyamkin
+1. What I have done / not done since the last Scrum?
+- Assisted colleagues with Bootstrap
+- Modified footer and header
+- Outlined structure for main pages
+- Build modal for users who wants to share sightseeing information- not done
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Build reusable footer and header for the rest of the page
+- Assist colleagues with Bootstrap
+- Build page to send information about sightseeing for administration 
+3. Where do I need assistance? What do I need to figure out?
+
+
+2020/10/23 Philip Huang
+1. What I have done / not done since the last Scrum?
+- Build FAQ Page
+- Build event cards on event
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Apply the final header/footer to all current pages
+- Restructure the detail page layout
+- Adjust the color for FAQ
+- Integrate the event cards on the search page
+3. Where do I need assistance? What do I need to figure out?
+- control the height/width proterty for images in bootstrap carousel section
+
+
+
+2020/10/23 Edwin Li
+1. What I have done / not done since last Scrum?
+- migrate existing code to bootstrap
+2. What I plan to do from this scrum to next? (next 24 hours)?
+- responsive layout of search page (5 issues remained)
+- sightseeing page layout
+3. Where do I need assistance? What do I need to figure out?
+- to solve: fixed-top/left, left aside collapse, gallery wrap
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2020/10/22 Andrey Lyamkin
+1. What I have done / not done since the last Scrum?
+- built modal for registration
+- built modal for sign in
+- main header not done
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- build modal for users who want to share sightseeing information
+- assist colleagues with Bootstrap
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/22 Philip Huang
+1. What I have done / not done since the last Scrum?
+- Build bootstrap header for testing 
+- Restrucure the detail page with bootstrap
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- Complete the detail page
+- Build a FAQ page with bootstrap
+3. Where do I need assistance? What do I need to figure out?
+- Bootstrap tech support, espacillay on how to adjust the content to fit in bootstrap grid template.
+
+2020/10/22 Edwin Li
+1. What I have done / not done since last Scrum?
+- module: sightseeing card <no link>
+- module: search side bar
+- module: search filter of sightseeing
+- module: search filter of event
+- module: search filter of micro-service
+2. What I plan to do from this scrum to next? (next 24 hours)?
+- responsive layout of search page
+- migrate existing code to bootstrap
+3. Where do I need assistance? What do I need to figure out?
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2020/10/21 Edwin Li
+1. What I have done / not done since last Scrum?
+- Prototype of sightseeing card: <div> + CSS
+- Prototype of searching Page
+- decide: colors (background, text, ...)
+- decide: website structure
+2. What I plan to do from this scrum to next? (next 24 hours)?
+- module: sightseeing card <no link>
+- module: search filter of sightseeing
+- responsive layout of search page
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/21 Andrey Lyamkin
+1. What I have done / not done since last Scrum?
+- built basic version for landing page
+- colors and fonts transferred at the end of the project 
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- build modal(separate page) for registration
+- build modal(separate page) for sign in
+- build the main header
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/21 Philip Huang
+1. What I have done / not done since last Scrum?
+- built mockup of a event detail page
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- build a mockup on the main header
+- build the event detail page with additional section:
+    Event Description:
+    *History
+    *Fun Facts
+    *Address
+
+    Microservices:
+    *Books a restaurant
+    *Book a hotel
+3. Where do I need assistance? What do I need to figure out?
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+2020/10/20 Andrey Lyamkin
+1. What I have done / not done since last Scrum?
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- build concept of the landing page (figma)
+- choose main colors and fonts
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/20 Edwin Li
+1. What I have done / not done since last Scrum?
+2. What I plan to do from this scrum to next? (next 24 hours)?
+- Prototype of sightseeing card: <div> + CSS
+- Prototype of searching Page
+- decide: colors (background, text, ...)
+- decide: website structure
+3. Where do I need assistance? What do I need to figure out?
+
+2020/10/20 Philip Huang
+1. What I have done / not done since last Scrum?
+2. What I plan to do from this scrum to next(next 24 hours)?:
+- build the mockup of a event detail page (figma)
+3. Where do I need assistance? What do I need to figure out?
